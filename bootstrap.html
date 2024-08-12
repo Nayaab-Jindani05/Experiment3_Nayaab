@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Home Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS (optional) -->
+    <style>
+        .hero {
+            background: url('college-hero.jpg') no-repeat center center;
+            background-size: cover;
+            color: rgb(0, 0, 0);
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .section-title {
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">VESIT</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <h1>Welcome to Vivekanand Education Society's Institute of Technology</h1>
+       
+    </div>
+</section>
+
+<!-- About Us Section -->
+<section id="about" class="container text-center">
+    <h2 class="section-title">About Us</h2>
+    <p style="text-align: justify;">Vivekanand Education Society was founded in 1959 by Shri. Hashu Advani, along with ten other members, who shared the dream of providing qualitative education to the youth of our country. In the beginning, Vivekanand Education Society had a very modest launch, with just 256 students and six classrooms, in the humble barracks of Chembur Camp. But today, it proudly boast of having 3,75,000 sq. ft. land, housing 12 buildings and 28 Institutions, ranging from a crèche to Ph.D. Centers. It has over 2000 teaching and non-teaching staff, and more than 18,000 students who pass through its hallowed portals each year.</p>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="bg-light py-5">
+    <div class="container">
+        <h2 class="section-title text-center">Our Programs & Faculty</h2>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <h3>Undergraduate Programs</h3>
+                <ul class="list-unstyled">
+                    <li>Electronics & Computer Science</li>
+                    <li>Computer</li>
+                    <li>Automation & Robotics</li>
+                    <li>Electronics and Telecommunication</li>
+                    <li>Information Technology</li>
+                    <li>AI and Data Science</li>
+                    <li>Humanities and Applied Sciences (FE)</li>
+                    <li>Electronics</li>
+                    <li>Instrumentation</li>
+                </ul>
+            </div>
+            <div class="col-md-4 text-center">
+                <h3>Postgraduate Programs</h3>
+                <ul class="list-unstyled">
+                    <li>Master of Engineering
+                    </li>
+                    <li>Master of Computer Applications</li>
+                </ul>
+            </div>
+            <div class="col-md-4 text-center">
+                <h3>Faculty</h3>
+                <ul class="list-unstyled">
+                    <li>Faculty</li>
+                    <li>Faculty Profile</li>
+                    <li>Faculty Handbook</li>
+                    <li>FDP and STTP</li>
+                    <li>Faculty Achievements</li>
+                    <li>API-PBAS form</li>
+                    <li>MU Concol 2021 Rule</li>
+                    
+                </ul>
+            </div>
+          
+            
+            
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container py-5">
+    <h2 class="section-title text-center">Contact Us</h2>
+    <div class="contact-form">
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Vivekanand Education Society's Institute of Technology. All rights reserved.</p>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
